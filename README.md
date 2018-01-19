@@ -73,7 +73,8 @@ Well, we can add a [link to this](https://www.wizeline.com/). Another
 possibility are [link with a title](https://www.wizeline.com/ "Wizeline").
 
 It is also possible to add [links with a reference number][1]. And links to
-arbitrary text within my document, like [the top of this section](#Hyperlinks)
+arbitrary text within my document, like [the top of this
+section](#this-is-a-subsection)
 
 [1]: http://www.wizeline.com
 
