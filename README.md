@@ -4,7 +4,7 @@ We can have subsections:
 
 ## This is a subsection
 
-And continue nesting subsections if that is neccesary for the organization of
+And continue nesting subsections if that is necessary for the organization of
 the document structure
 
 ### Nested Subsubsection 
@@ -21,7 +21,7 @@ Now, what about lists?. Well, we can have numbered lists:
 And bullet lists:
 
 * First item
-* Second item, which also happens to be a multiline item
+* Second item, which also happens to be a multi-line item
 
   This is a new paragraph within the whole thing. Let's nest a list:
   
@@ -73,19 +73,27 @@ Well, we can add a [link to this](https://www.wizeline.com/). Another
 possibility are [link with a title](https://www.wizeline.com/ "Wizeline").
 
 It is also possible to add [links with a reference number][1]. And links to
-arbitrary text within my docunment, like [the top of this section](#Hyperlinks)
+arbitrary text within my document, like [the top of this section](#Hyperlinks)
 
-[1]: http://www.wizeline.com.
+[1]: http://www.wizeline.com
 
 ### Images
 
-Images syntax 
+Images syntax almost the same as links:
+
+![Alternative text](https://i.imgur.com/QJCkuj6.jpg)
+
+Likewise one can chose to put the reference at the bottom:
+
+![Typing Text][typing]
+
+[typing]: https://i.imgur.com/QJCkuj6.jpg 
 
 ### Tables
 
-Well, tales may take a bit longer to typeset:
+Well, tables may take a bit longer to typeset:
 
-| Column1 | Column 2 | Coluymn 3 |
+| Column | Column 2 | Column 3  |
 |:--------|----------|----------:|
 | 23      |something | 110       |
 | 42      | else     |:bar_chart:|
@@ -97,5 +105,5 @@ Well, tales may take a bit longer to typeset:
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-**FINAL NOTE** Slack uses its own flavor of Markdown. Many of these work fin
-one Slack. Not the hyperlinks though.
+**FINAL NOTE** Slack uses its own flavor of Markdown. Many of these work fine
+on Slack. Not the hyperlinks though.
