@@ -106,5 +106,3 @@ Well, tables may take a bit longer to typeset:
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-**FINAL NOTE** Slack uses its own flavor of Markdown. Many of these work fine
-on Slack. Not the hyperlinks though.
