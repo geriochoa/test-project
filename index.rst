@@ -15,7 +15,7 @@ We can have subsections:
 This is a Subsection
 --------------------
 
-And continue nesting subsections if that is neccesary for the organizarion of
+And continue nesting subsections if that is necessary for the organization of
 the document structure.
 
 Nested Subsubsection
@@ -95,7 +95,7 @@ Hyperlinks
 ^^^^^^^^^^
 
 Well, we can add a `link to this <https://www.wizeline.com/>`_. We don't have
-the other possibiliti of a link with title.
+the other possibility of a link with title.
 
 It is also possible to add `links using a reference`_. And links to arbitrary
 text withing my document, like :ref:`the top of this section <hyperlinks>`.
@@ -105,7 +105,7 @@ text withing my document, like :ref:`the top of this section <hyperlinks>`.
 Images
 ^^^^^^
 
-Images syntax is almos the same as links:
+Images syntax is almost the same as links:
 
 .. image:: https://i.imgur.com/QJCkuj6.jpg
    :width: 50px
