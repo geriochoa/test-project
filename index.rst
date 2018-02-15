@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+**************
 RST is Simple!
-==============
+**************
 
 .. toctree::
    :maxdepth: 4
@@ -12,16 +14,16 @@ RST is Simple!
 
    index
 
-We can have subsections:
+We can have sections:
 
-This is a Subsection
---------------------
+This is a Section
+==================
 
 And continue nesting subsections if that is necessary for the organization of
 the document structure.
 
-Nested Subsubsection
-^^^^^^^^^^^^^^^^^^^^
+Nested Subsection
+_________________
 
 Then we can do some simple formatting writing **bold** and *italics*, or we can
 ***combine*** them. The alternative of underscores does not work here.
@@ -54,7 +56,7 @@ which item I'm currently writing. Let's try that then:
 #. Another item
 
 What About Code?
-^^^^^^^^^^^^^^^^
+________________
 
 Tow write inline code is simple `print("hello world")`. On the other hand, if
 you want to write a block of code, try this::
@@ -94,7 +96,7 @@ Cool!.
 .. _hyperlinks:
 
 Hyperlinks
-^^^^^^^^^^
+__________
 
 Well, we can add a `link to this <https://www.wizeline.com/>`_. We don't have
 the other possibility of a link with title.
@@ -105,7 +107,7 @@ text withing my document, like :ref:`the top of this section <hyperlinks>`.
 .. _links using a reference: httpp://www.wizeline.com
 
 Images
-^^^^^^
+______
 
 Images syntax is almost the same as links:
 
@@ -124,7 +126,7 @@ it comes to describing graphic interfaces and keyboard combinations.
 To copy the text press `Command` |command| + `c`.
 
 Tables
-^^^^^^
+______
 
 Well, tables may take a bit longer to typeset, they are slightly more flexible:
 
@@ -141,7 +143,7 @@ Well, tables may take a bit longer to typeset, they are slightly more flexible:
 +------------+------------+-----------+
 
 Some other features
-^^^^^^^^^^^^^^^^^^^
+___________________
 
 The `include` directive allows to *recycle* content.
 
