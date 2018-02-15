@@ -1,4 +1,4 @@
-.. NewsOS Bots documentation master file, created by
+.. Documentation master file, created by
    sphinx-quickstart on Wed Feb 14 12:20:02 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -7,8 +7,10 @@ RST is Simple!
 ==============
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 4
+   :caption: Table of Contents:
+
+   index
 
 We can have subsections:
 
@@ -108,14 +110,14 @@ Images
 Images syntax is almost the same as links:
 
 .. image:: https://i.imgur.com/QJCkuj6.jpg
-   :width: 50px
-   :height: 50px
+   :width: 200px
+   :height: 150px
    :align: center
 
 A nice thing about RST is that it allows inline substitutions, very useful when
 it comes to describing graphic interfaces and keyboard combinations.
 
-.. |command| image:: command-icon.png
+.. |command| image:: _static/command-icon.png
    :align: middle
    :width: 12pt
 
@@ -138,9 +140,35 @@ Well, tables may take a bit longer to typeset, they are slightly more flexible:
 | body row 4 |            | - blocks. |
 +------------+------------+-----------+
 
+Some other features
+^^^^^^^^^^^^^^^^^^^
+
+The `include` directive allows to *recycle* content.
+
+There are also special directives for warnings, notes and pending tasks.
+
+.. note::
+  This is a note. Useful for reelevant information that a user must be aware of
+  whe working with this software.
+
+
+.. seealso:: 
+  This is a sample of **seealso**, useful to highlight external links
+  that complement your document
+
+.. warning::
+  A warning directive, to remark important things to keep in mind.
+
+.. todo:: 
+  This is a special directive that can be toggled on and off. It's purpose is
+  to include notes for the writer, but those notes are not supposed to be part
+  of the final document.
+
+
+
+
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
